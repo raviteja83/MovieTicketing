@@ -1,0 +1,34 @@
+.form-container {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.form-container .form-group--input {
+    max-width: 250px;
+    margin: 0 10px 0 0;
+}
+
+.form-container .form-group--number {
+    max-width: 100px;
+    margin-bottom: 0;
+}
+
+.form-container .input-container {
+    flex: 0 0 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.form-container .help-block {
+    color: red;
+    font-size: 12px;
+    flex: 0 0 100%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.form-container .action-container {
+    margin: 10px 0;
+}

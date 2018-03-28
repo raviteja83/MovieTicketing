@@ -1,0 +1,7 @@
+export const SAVE_SEATS = 'SAVE_SEATS';
+
+export const SAVE_CURRENT_INFO = 'SAVE_CURRENT_INFO';
+
+export const ADD_BOOKING = 'ADD_BOOKING';
+
+export const ENABLE_SELECTION = 'ENABLE_SELECTION';

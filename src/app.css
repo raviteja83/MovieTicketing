@@ -1,0 +1,109 @@
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn {
+    box-shadow: none !important;
+}
+
+.app {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    max-height: 100%;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+.seat-container {
+    margin: 20px 0;
+    position: relative;
+}
+
+.seat-container .screen-container {
+    display: flex;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+.screen-container .screen {
+    height: 30px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: #3492ff;
+    border: 1px solid black;
+    line-height: 28px;
+    text-align: center;
+    flex: 0 0 420px;
+}
+
+.seat-container .hint-block {
+    position: absolute;
+    left: 20%;
+    top: 14%;
+}
+
+.seat-container .hint-block .hint {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.seat-container .hint-block .hint > i {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.hint .hint--available {
+    background-color: gray;
+}
+
+.hint .hint--selected {
+    background-color: green;
+}
+
+.hint .hint--booked {
+    background-color: red;
+}
+
+.seat-container .seat-container__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seat-container .error-block {
+    color: red;
+    font-size: 12px;
+    text-align: center;
+}
+
+.seat-container .seat-gap {
+    flex: 0 0 60px;
+}
+
+.seat-container .seat--label {
+    align-self: flex-end;
+    line-height: 1;
+}
+
+.seat-container .seat-number {
+    width: 30px;
+    text-align: center;
+}
+
+.seat-container .action-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.table-container {
+    width: 400px;
+    margin: 0 auto;
+}

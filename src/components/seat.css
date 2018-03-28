@@ -1,0 +1,34 @@
+.seat {
+    width: 30px;
+}
+
+.seat input[type='checkbox'] {
+    opacity: 0;
+    z-index: -1;
+}
+
+.seat input[type='checkbox'] + label {
+    width: 20px;
+    height: 20px;
+    margin: auto;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    text-indent: -999px;
+    overflow: hidden;
+    border: 1px solid gray;
+    background: gray;
+    transition: 0.5s, ease, all;
+    cursor: pointer;
+}
+
+.seat.selected input[type='checkbox']:checked + label {
+    border: 1px solid green;
+    background: green;
+}
+
+.seat input[type='checkbox']:disabled + label {
+    border: 1px solid red;
+    background: red;
+    cursor: not-allowed;
+}
